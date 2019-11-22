@@ -1,0 +1,46 @@
+body{
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+a {
+  text-decoration:none;
+  margin-top: 25px;
+}
+
+
+.btn{
+  background: black;
+  color: red;
+  padding-left: 15px 20px;
+  transition: all 300ms ease;
+}
+.btn:hover {
+  background: red;
+  color: black;
+  filter: brightness(200%);
+}
+
+.underline{
+border-bottom: 2px solid red;
+padding-bottom: 5px;
+transition: all 300ms ease-in-out;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: red;
+  transition: all 300ms ease;
+  }
+
+
+.other{
+
+}
